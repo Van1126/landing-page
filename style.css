@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  background-color: #1f2937;
+  color: rgb(255, 255, 255);
+  margin: ;
+  padding: ;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+.logo {
+  flex: 1;
+  justify-content: flex-start;
+  color: white;
+  font: #f9faf8;
+  font-size: 24px;
+}
+.link1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: flex-end;
+}
+.link2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: flex-end;
+}
+.link3 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: flex-end;
+  padding-right: 10px;
+}
+.containers <div .primary,
+.secondary,
+.button {
+  display: flex;
+}
+.primary {
+  font-size: 48px;
+  font-style: extra-bold;
+  font: #f9faf8;
+}
+.secondary {
+  font-size: 18px;
+  font-style: #e5e7eb;
+}
+.button {
+  color: white;
+  background-color: #3882f6;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px;
+}
+#image {
+  display: flex;
+  ]justify-content: center;
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.info {
+  font-size: 36px;
+  font-style: extra-bold #1f2937;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container2 <div .row,
+.text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.row {
+  border-radius: 10px;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-style: italic, #1f2937;
+  font-size: 36px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  font: #f9faf8;
+  font-size: 14px;
+}
