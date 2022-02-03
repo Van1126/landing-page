@@ -1,0 +1,68 @@
+section {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+}
+.mainContent {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+}
+.infoSection {
+  display: flex;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+}
+.callToAction {
+  display: flex;
+}
+.bottom {
+  background-color: #1f2937;
+  display: flex;
+}
+.coconutImage {
+  width: 200px;
+  flex: 1;
+}
+.primaryColor {
+  color: #f9faf8;
+}
+.secondaryColor {
+  color: #e5e7eb;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
