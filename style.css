@@ -94,3 +94,30 @@ button {
   flex: 1;
   padding-top: 60px;
 }
+.bluebox {
+  background-color: #3882f6;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  color: white;
+  flex: 1;
+}
+.divAction {
+  display: flex;
+}
+.divEndInfo {
+  display: flex;
+}
+.endButton {
+  display: flex;
+  border: white 2px solid;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  align-self: flex-end;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+}
