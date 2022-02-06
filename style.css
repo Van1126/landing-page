@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 25px;
 }
 a {
   text-decoration: none;
@@ -48,6 +48,8 @@ a {
 .bottom {
   background-color: #1f2937;
   display: flex;
+  justify-content: center;
+  color: #f9faf8;
 }
 .coconutImage {
   width: 200px;
@@ -64,22 +66,28 @@ button {
   color: white;
   border-radius: 5px;
   border: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .randomInfo {
   display: flex;
   justify-content: center;
   flex: 1;
+  color: #1f2937;
 }
 .allItems {
   display: flex;
   gap: 16px;
 }
 .allItems img {
-  width: 100%;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 10px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border: 2px solid #3882f6;
 }
 .quote p {
   font-size: 30px;
@@ -99,15 +107,19 @@ button {
   display: flex;
   padding: 10px;
   border-radius: 5px;
-  margin: 20px;
+  margin: 100px 100px;
   color: white;
   flex: 1;
+  height: 150px;
+  padding-bottom: 25px;
 }
 .divAction {
   display: flex;
+  padding-left: 45px;
 }
 .divEndInfo {
   display: flex;
+  padding-left: 45px;
 }
 .endButton {
   display: flex;
